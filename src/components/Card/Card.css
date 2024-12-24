@@ -1,0 +1,155 @@
+.card-list-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.filter-link {
+  color: #080808;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin: 5px 30px;
+  -webkit-text-fill-color: #080808;
+}
+
+.card-details-sidebar {
+  width: 600px;
+  flex-shrink: 0;
+  margin: 15px 30px;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  margin: 15px 30px;
+  padding: 15px;
+  border: 1px solid rgb(218, 213, 213);
+  border-radius: 8px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.01);
+  gap: 5px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between; /* Space elements to opposite ends */
+  align-items: center; /* Vertically align elements */
+  padding: 5px;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: rgb(240, 140, 10);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.job-info {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 8px;
+}
+
+.job-title {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.company-name {
+  font-size: 0.8rem;
+  color: #555;
+  margin: 5px 0;
+  -webkit-text-fill-color: #080808;
+}
+
+.salary-location {
+  display: flex; /* Ensure the elements are displayed horizontally */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.salary,
+.experience,
+.location {
+  flex: 1; /* Ensure the elements take equal space */
+  text-align: center;
+  padding: 1px;
+  background-color: black;
+  border: 1px solid #030303;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  color: #555;
+  -webkit-text-fill-color: #ddd;
+}
+
+.salary {
+  background-color: #007bff; /* Primary color */
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.experience {
+  background-color: #28a745; /* Success color */
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.location {
+  background-color: #17a2b8; /* Info color */
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+}
+
+.card-btn {
+  background-color: #0f0f0f;
+  max-width: 30%;
+  color: #fff;
+  border: none;
+  padding: 3px 2px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  gap: 3px;
+}
+
+.card-btn:hover {
+  background-color: #b37a00;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 15px;
+  height: 15px;
+}
+
+.card-icon {
+  font-size: 13px;
+  color: rgb(15, 15, 15);
+}

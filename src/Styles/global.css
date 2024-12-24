@@ -1,0 +1,39 @@
+
+
+:root {
+ /* ######   Primary-colors  #########*/
+ --black:rgba(0,0,0,1);
+  --white: rgba(255,255,255,1);
+  --Madgray: rgba(168,168,168,1);
+
+ /* ##### Secondary Colors    #######*/
+ --seasmoke: rgba(120,120,120,1);
+  --GrayHaze: rgba(55,55,55,1);
+  --Stormfront: rgba(167,167,167,1);
+  --silvershine: rgba(171,171,171,1);
+
+  /*  ######  Typography ########### */
+  --font-family: poppins, sans-serif;
+
+  /*  ######## Headings ############ */
+  --h1-size: 100px;
+  --h1-line-height: 100px;
+  --h1-weight: 800; /* ExtraBold */
+
+  --h2-size: 60px;
+  --h2-line-height: 60px;
+  --h2-weight: 800; /* ExtraBold */
+
+  --h3-size: 22px;
+  --h3-line-height: 22px;
+  --h3-weight: 700; /* Bold */
+
+  --h4-size: 16px;
+  --h4-line-height: 16px;
+  --h4-weight: 600; /* SemiBold */
+
+  --font-family: 'Arial, sans-serif';
+  --spacing: 16px;
+  --border-radius: 8px;
+}
+

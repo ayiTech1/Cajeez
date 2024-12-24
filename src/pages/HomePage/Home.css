@@ -1,0 +1,35 @@
+.main-container {
+    padding: 20px;
+    background-color: #e0f7fa; /* Light blue background */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .home-layout {
+    display: flex;
+    flex-direction: column; /* Stack card list and details vertically */
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px; /* Limit the content width */
+  }
+  
+  .content-layout {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .card-section {
+    width: 60%; /* Cards section takes up 60% of the width */
+  }
+  
+  .details-section {
+    width: 35%; /* Card details section takes up 35% of the width */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  

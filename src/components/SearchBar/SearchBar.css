@@ -1,0 +1,106 @@
+/* Custom search bar styles */
+.search-bar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto; /* Centers the container horizontally and adds top margin */
+  }
+  
+  .search-bar-container {
+    background-color: #ffffff;
+    max-width: 70%; /* Limiting the maximum width */
+    padding: 5px 0;
+    border: 0.5px solid;
+    box-shadow: 0 2px 5px rgba(5, 5, 5, 0.1);
+    border-radius: 50px; /* Rounded corners */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+  }
+  
+  .search-bar-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .search-bar {
+    background-color: #fff;
+    border-radius: 50px; /* Rounded corners for the entire search bar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .input-group {
+    display: flex;
+    width: 100%;
+  }
+  
+  .vr {
+    border-left: 1px solid #dee2e6; /* Vertical line */
+    height: 100%;
+  }
+  
+  .separator {
+    margin-left: 1px; /* Adjust this to remove the space */
+    margin-right: 1px; /* Adjust this to remove the space */
+  }
+  
+  .input-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .job-input {
+    padding-left: 30px; /* Adds space for the job search icon inside the input */
+  }
+  
+  .location-input {
+    padding-left: 30px; /* Adds space for the location icon inside the input */
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Position the job search icon inside the input */
+    transform: translateY(-50%);
+    color: #aaa; /* Adjust the icon color as needed */
+  }
+  
+  .location-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Position the location icon inside the input */
+    transform: translateY(-50%);
+    color: #aaa; /* Adjust the icon color as needed */
+  }
+  
+  .search-btn {
+    background-color: #0a0a0a;
+    border: none;
+    color: white;
+    border-radius: 50px; /* Rounded corners for the button */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px; /* Add some space between the search bar and the button */
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-btn-icon {
+    margin-left: 5px;
+    background-color: #fff; /* White background color for the icon */
+    color: #0c0c0c; /* Black color for the icon */
+    border-radius: 50px;
+    font-size: 0.8rem; /* Reduce the size of the icon */
+  }
+  
+  .search-btn i {
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,46 @@
+.custom-dropdown-button-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Add some space between buttons */
+}
+
+.custom-dropdown-button {
+  background-color: #007bff; /* Custom background color */
+  color: #fff; /* Custom text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Custom padding */
+  border-radius: 5px; /* Custom border radius */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.custom-dropdown-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.custom-dropdown-menu {
+  display: none; /* Hide the dropdown menu by default */
+  position: absolute; /* Position the dropdown menu */
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Ensure the dropdown menu is on top */
+}
+
+.custom-dropdown-button:hover .custom-dropdown-menu {
+  display: block; /* Show the dropdown menu on hover */
+}
+
+.custom-dropdown-item {
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none; /* Remove underline from links */
+  display: block; /* Make the items block-level elements */
+}
+
+.custom-dropdown-item:hover {
+  background-color: #ddd; /* Change background color on hover */
+}

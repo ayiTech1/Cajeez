@@ -1,0 +1,26 @@
+
+.card-list-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .card-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .filter-link {
+    color: #080808;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 5px 30px;
+    -webkit-text-fill-color: #080808;
+  }
+  
+  .card-details-sidebar {
+    width: 600px;
+    flex-shrink: 0;
+    margin:15px 30px;
+    height: 100%;
+  }
